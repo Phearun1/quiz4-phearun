@@ -17,7 +17,7 @@ class FileController extends Controller
 
         $file = $request->file('file');
 
-        $path = $file->store('laravel', 'spaces'); // 'uploads' is the folder in your Space
+        $path = $file->store('images', 'spaces'); // 'uploads' is the folder in your Space
         DB::table('person')->insert([
             'firstname'=>$request->input('firstname'),
             'lastname'=>$request->input('lastname'),
