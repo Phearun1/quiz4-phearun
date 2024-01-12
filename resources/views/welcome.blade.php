@@ -69,13 +69,14 @@
 
         <label for="file">Image:</label>
         <input type="file" name="file">
-        
+        <br>
         <input type="radio" name="type" value='0' id="type2">
         <label for="type2"> Digital Space</label><br>
-        
+    
         <button type="submit">Upload</button>
+        <br>
+        <a href="/viewtable">View Stored Image</a>
     </form>
     
-    <a href="/viewtable">View Stored Image</a>
 </body>
 </html>
