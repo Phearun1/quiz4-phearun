@@ -63,14 +63,15 @@
 <body class="antialiased">
     <form action="/upload" method="post" enctype="multipart/form-data">
         @csrf
-        <label for="file">Choose a file:</label>
-        <input type="file" name="file" id="file">
         
         <label for="firstname">First Name:</label>
         <input type="text" name="firstname" id="firstname">
         
         <label for="lastname">Last Name:</label>
         <input type="text" name="lastname" id="lastname">
+
+        <label for="file">Choose a file:</label>
+        <input type="file" name="file" id="file">
         
         <label for="type">Select Type:</label>
         <input type="radio" name="type" value='1' id="type1">
