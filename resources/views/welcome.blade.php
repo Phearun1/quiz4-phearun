@@ -81,5 +81,6 @@
         
         <button type="submit">Upload</button>
     </form>
+    <a href="/viewtable">View Stored Image</td>
 </body>
 </html>
