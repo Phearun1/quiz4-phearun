@@ -15,9 +15,9 @@ class FileController extends Controller
             'file' => 'required|mimes:jpg,png,jpeg|max:2048',
         ]);
 
-        $file = $request->file('file');
+        $photo = $request->file('photo');
 
-        $path = $file->store('images', 'spaces'); // 'uploads' is the folder in your Space
+        $path = $photo->store('images', 'spaces'); // 'uploads' is the folder in your Space
         DB::table('person')->insert([
             'firstname'=>$request->input('firstname'),
             'lastname'=>$request->input('lastname'),

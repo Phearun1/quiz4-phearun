@@ -70,8 +70,8 @@
         <label for="lastname">Last Name:</label>
         <input type="text" name="lastname" id="lastname">
 
-        <label for="file">Choose a file:</label>
-        <input type="file" name="file" id="file">
+        <label for="photo">Image:</label>
+        <input type="file" name="photo">
         
         <label for="type">Select Type:</label>
         <input type="radio" name="type" value='1' id="type1">
