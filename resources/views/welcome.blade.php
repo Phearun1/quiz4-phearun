@@ -32,9 +32,6 @@
             margin-bottom: 10px;
         }
 
-        input[type="file"] {
-            display: none;
-        }
 
         label {
             display: block;
