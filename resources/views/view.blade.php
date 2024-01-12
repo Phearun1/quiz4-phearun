@@ -35,9 +35,9 @@
             @foreach($person as $person)
             @if($person->type == '0')
             <tr>
-                <td>{{$person->firstname}} {{$person->type}}</td>
+                <td>{{$person->firstname}} </td>
                 <td>{{$person->lastname}}</td>
-                <td><img src="https://quiz4-space.sgp1.digitaloceanspaces.com/{{$person->picture}}" alt=""></td>
+                <td><img src="https://quiz4-phearun.sgp1.digitaloceanspaces.com/{{$person->picture}}" alt=""></td>
             </tr>
             @else
             <tr>

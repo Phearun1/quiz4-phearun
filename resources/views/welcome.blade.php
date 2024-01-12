@@ -70,10 +70,6 @@
         <label for="file">Image:</label>
         <input type="file" name="file">
         
-        <label for="type">Select Type:</label>
-        <input type="radio" name="type" value='1' id="type1">
-        <label for="type1"> Block Storage</label><br>
-        
         <input type="radio" name="type" value='0' id="type2">
         <label for="type2"> Digital Space</label><br>
         
