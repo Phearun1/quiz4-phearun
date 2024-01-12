@@ -37,7 +37,7 @@
             <tr>
                 <td>{{$person->firstname}} </td>
                 <td>{{$person->lastname}}</td>
-                <td><img src="https://quiz4-phearun.sgp1.digitaloceanspaces.com/{{$person->picture}}" alt=""></td>
+                <td><img src="https://quiz4-testing.sgp1.digitaloceanspaces.com/{{$person->picture}}" alt=""></td>
             </tr>
             @else
             <tr>
